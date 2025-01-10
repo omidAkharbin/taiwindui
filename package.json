@@ -1,0 +1,25 @@
+{
+  "homepage": "https://omidakharbin.github.io/taiwindui",
+  "name": "tailwindvite",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "predeploy": "npm run built",
+    "deploy": "gh-pages -d dist",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "windcompiler": "npx tailwindcss -i src/style/main.css -o src/style/maintaiwind.css --watch ",
+    "windminify": "npx tailwindcss -i src/style/main.css -o src/style/maintaiwind.css --minify "
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "vite": "^6.0.5"
+  },
+  "dependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}

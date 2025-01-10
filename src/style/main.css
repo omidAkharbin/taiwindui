@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Varela";
+  src: url("./assets/varela/Varela.eot") format("eot"),
+  url("/assets/varela/Varela.woff") format("woff"),
+  url("/assets/varela/Varela.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
